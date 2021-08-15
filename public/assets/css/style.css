@@ -1,0 +1,356 @@
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+
+    ========================================================  */
+
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size: 14px;
+    direction: ltr;
+}
+.body{
+    background:  url("../img/labtop.jpg") no-repeat center center fixed ;
+    background-size: cover;
+}
+.opacity{
+    background-color: rgba(2,2,2,0.4);
+    color : white
+}
+.set-pad {
+    padding-top:35px;
+}
+.set-row-pad {
+    padding-top:30px;
+    padding-bottom:50px;
+}
+/*=====================================
+  NAVBAR STYLES
+    ===================================*/
+
+.logo-custom {
+    max-height: 40px;
+}
+
+#menu {
+    background-color: rgba(28, 43, 75, 1);
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    font-weight: 900;
+    letter-spacing: 1px;
+    min-height: 70px;
+}
+
+
+.navbar-inverse {
+    border-color: transparent;
+}
+
+    .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover {
+        color: #FFF;
+        padding: 22px 10px;
+    }
+
+
+/*=====================================
+  HOME STYLES
+    ===================================*/
+.home-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/SyScriptTeam-wallpaper.png) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+    .home-sec .overlay {
+        background: rgba(38, 57, 88, 0.89);
+        min-height: 500px;
+    }
+
+    .home-sec h1 {
+        color: #fff;
+        font-weight: 900;
+        font-size: 50px;
+        text-transform: uppercase;
+        padding-bottom: 35px;
+    }
+
+    .home-sec h3 {
+        text-transform: uppercase;
+    }
+
+
+
+.set-flexi {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    background-color: transparent;
+    border: 0px solid #000;
+    padding-top: 120px;
+}
+
+.flex-control-nav {
+    display: none!important;
+}
+
+.set-flexi a {
+    margin: 5px;
+}
+/*=====================================
+  TAG LINE STYLES
+    ===================================*/
+
+.tag-line {
+    background: #E9E9E9;
+    color: #000;
+}
+
+    .tag-line h2 {
+        font-size: 20px;
+        font-weight: 900;
+        padding: 5px 10px 10px 5px;
+        color: #005E5A;
+    }
+
+        .tag-line h2 > i {
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+/*=====================================
+  HEADER LINE STYLES
+    ===================================*/
+.header-line {
+    font-weight: 900;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+}
+
+h1::after {
+    content: " ";
+    border: solid 2px #2f9484;
+    display: block;
+    width: 200px;
+    margin: 12px auto;
+}
+
+/*=====================================
+  ABOUT STYLES
+  ===================================*/
+.about-div {
+    padding: 30px;
+}
+
+.icon-round-border {
+    border: 8px double #1A94C4;
+    color: #2f9484;
+    text-align: center;
+    /*padding-top: 15px;*/
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+    .icon-round-border:hover {
+        color: #fff;
+        border: 10px double #fff;
+        background-color: #1A94C4;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+.about{
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.about-div{
+    border: 1px solid #DDD;
+    /*background-color: rgba(255,0,0,0.4)*/
+}
+
+.height{
+    height: 600px;
+}
+
+.about-div {
+    width : 100%;
+    text-align: left;
+    margin-bottom: 30px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+
+}
+
+.about-div:hover{
+    transition:all 0.7s ease ;
+    -o-transition:all 0.7s ease ;
+    -moz-transition:all 0.7s ease ;
+    -webkit-transition:all 0.7s ease ;
+    transform: scale(1.05);
+}
+
+.about-div hr {
+    border: 1px solid #1A94C4;
+}
+
+.about-div >img{
+    border-radius: 10px;
+    width:90%;
+    height: 200px;
+}
+
+.about-div img:hover{
+    transition:all 0.7s ease ;
+    -o-transition:all 0.7s ease ;
+    -moz-transition:all 0.7s ease ;
+    -webkit-transition:all 0.7s ease ;
+    transform: scale(1.05);
+}
+
+.about-div .to-left h3 {
+    font-size: 17px;
+    font-weight: 700;
+    /*text-transform: uppercase;*/
+    display : inline;
+}
+
+.about-div p {
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn-set {
+    transition:all 0.7s ease ;
+    -o-transition:all 0.7s ease ;
+    -moz-transition:all 0.7s ease ;
+    -webkit-transition:all 0.7s ease ;
+    margin-top:10px;
+    margin-bottom: 10px;
+    width:55%;
+    border-radius: 5%;
+    margin-left: 10px;
+
+}
+.btn-set:hover{
+    transition:all 0.7s ease ;
+    -o-transition:all 0.7s ease ;
+    -moz-transition:all 0.7s ease ;
+    -webkit-transition:all 0.7s ease ;
+    width:80%
+}
+.btn-set:active{
+    background-color: #ac2925;
+    width:85%;
+}
+
+
+/*=====================================
+  FACULTY STYLES
+  ===================================*/
+#faculty-sec {
+    background-color: #000;
+    color: #fff;
+}
+
+    #faculty-sec .header-line {
+        color: #fff;
+    }
+.faculty-div h4 {
+    line-height:30px;
+    font-weight:700;
+}
+.faculty-div {
+    padding: 30px;
+}
+
+    .faculty-div hr {
+        border: 1px solid #1A94C4;
+    }
+
+    .faculty-div h3 {
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .faculty-div p {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .faculty-div img {
+        border: 10px double #fff;
+    }
+
+/*=====================================
+  CONTACT STYLES
+  ===================================*/
+#contact-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/labtop.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    margin-top: 20px;
+}
+
+#contact-sec .overlay {
+        background: rgba(0, 0, 0, 0.76);
+        min-height: 600px;
+    }
+
+    #contact-sec h1 {
+        color:#fff;
+    }
+#contact-sec .form-control{
+    background-color:rgba(255, 255, 255, 0);
+    color:#fff;
+}
+
+#contact-sec option{
+    background-color :rgba(0,0,0,0.9);
+    color:#fff;
+
+}
+
+/*=====================================
+  Footer STYLES
+  ===================================*/
+#footer {
+    padding:5px 20px;
+    background-color:#2d3d5a;
+    text-align:right;
+    color:#fff;
+    font-size:15px;
+}

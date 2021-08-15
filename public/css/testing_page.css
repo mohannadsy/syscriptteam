@@ -1,0 +1,48 @@
+body{
+    direction: rtl;
+    background:url(../assets/img/underwater.jpg) no-repeat center center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+form{
+    width:800px;
+    margin:auto;
+    padding:3px;
+    text-align:center;
+    border:1px solid;
+    border-radius: 30px;
+}
+div{
+    text-align:center;
+    font-weight: bold;   
+}
+
+label{
+    font-size: 20;
+    font-weight: bolder
+}
+
+.answer{
+    margin: auto;
+    width: 70%;
+    height: inherit;
+}
+.question-number{
+    margin: auto;
+    width: 100px
+}
+.question-sentence{
+    margin: auto;
+    width:90%;
+    height: inherit;
+    margin-bottom: 3px
+}
+.group{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
